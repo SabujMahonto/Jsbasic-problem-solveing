@@ -18,6 +18,5 @@ return total;
 
 }
 
-
 let totalPages = paperRequirements(1, 1, 1);
 console.log(totalPages);

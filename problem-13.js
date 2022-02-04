@@ -33,15 +33,24 @@ function mileToKilometer(mile){
 let totalMile =mileToKilometer(5)
 console.log(totalMile);
 
-
+// kilometer to mile convert 
 function kmToMile(km){
     let mile = km * 0.6;
     return mile;
 }
 
-// kilometer to mile convert 
+
 let totalKm = kmToMile(6);
 console.log(totalKm);
+
+// ana to vori 
+
+function anaToVori(ana){
+ let vori = ana / 16;
+ return vori;
+}
+let totalVori = anaToVori(64);
+console.log(totalVori);
 
 
 
