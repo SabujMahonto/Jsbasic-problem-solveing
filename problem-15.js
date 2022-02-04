@@ -10,14 +10,14 @@
 
 function paperRequirements(book1, book2, book3){
 let pageForBook1 = book1 * 100;
-let pageForBook2 =200 * 200;
-let pageForBook3 = 300 * 300;
+let pageForBook2 = book2 * 200;
+let pageForBook3 = book3 * 300;
 
-let total = pageForBook1 +pageForBook2 +pageForBook3;
+let total = pageForBook1 + pageForBook2 + pageForBook3;
 return total;
 
 }
 
 
-let totalPages = paperRequirements(3, 3, 3);
+let totalPages = paperRequirements(1, 1, 1);
 console.log(totalPages);
