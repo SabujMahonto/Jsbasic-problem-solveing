@@ -5,23 +5,27 @@
 //* price based on given quantity.
 //*  + error handle 
 
-function mularDam(quantity){
+function potatoPrice(quantity){
+    
+        let price = 0 ;
     // basic error handle  
-    if(typeof quantity != Number ){
-        return 'Please enter a valid quantity'
-    }
-    if( quantity <= 0){
+//     if(typeof quantity != Number ){
+//         return 'Please enter a valid quantity'
+//     }
+
+   if(quantity <= 0){
         return 'Please enter a valid quantity'
     }
 
-    let price = 0 ;
-    if(quantity <= 2){
+     if(quantity <= 2){
         price = quantity * 30 ;
     }else{
         price = quantity * 25;
     }
     return price;
+
+  
 }
  
-let totalPrice = mularDam(4)
+let totalPrice = potatoPrice("1")
 console.log(totalPrice);
